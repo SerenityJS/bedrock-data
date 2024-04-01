@@ -1,0 +1,1 @@
+Dump bedrock dedicated server block palette

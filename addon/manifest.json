@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+      "name": "@serenityjs/palette-dumper",
+      "description": "Dumps the bds block palette.",
+      "uuid": "3df80c4a-9847-481f-b6c4-c9598406768c",
+      "version": [ 1, 0, 0 ],
+      "min_engine_version": [ 1, 20, 40 ]
+  },
+  "modules": [
+      {
+          "type": "data",
+          "description": "data",
+          "uuid": "1c153b4c-afff-49d0-8eb1-7ff8769a796a",
+          "version": [ 1, 0, 0 ]
+      },
+      {
+          "type": "script",
+          "description": "",
+          "uuid": "caebe460-fd66-4464-9a06-b2d8022f6ec6",
+          "version": [ 1, 0, 0 ],
+          "entry": "scripts/index.js"
+      }
+  ],
+  "dependencies": [
+      {
+          "module_name": "@minecraft/server",
+          "version": "1.10.0-beta"
+      },
+      {
+          "module_name": "@minecraft/server-admin",
+          "version": "1.0.0-beta"
+      },
+      {
+          "module_name": "@minecraft/server-net",
+          "version": "1.0.0-beta"
+      }
+  ]
+}
