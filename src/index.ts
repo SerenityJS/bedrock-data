@@ -14,15 +14,28 @@ import { resolve } from "node:path"
 import { copyDirRecursive } from './copy'
 import { exec, spawnSync } from "node:child_process"
 import { createServer } from "node:http"
+import { BlockState, generateBlockStates } from "./generate"
 
 const serverPath = resolve(process.cwd(), "server")
+const dumpPath = resolve(process.cwd(), "dump")
 const templatePath = resolve(__dirname, "../template")
 const addonPath = resolve(__dirname, "../addon")
+
+interface DumpRequest {
+  states: { identifier: string, values: (string | number | boolean)[] }[]
+  types: { identifier: string, states: string[], loggable: boolean }[]
+}
 
 // Check if server folder exists
 if (!existsSync(serverPath)) {
   // Create server folder
   mkdirSync(serverPath)
+}
+
+// Check if dump folder exists
+if (!existsSync(dumpPath)) {
+  // Create dump folder
+  mkdirSync(dumpPath)
 }
 
 // Check if the worlds folder exists in the server folder
@@ -87,12 +100,55 @@ const bedrock = exec(resolve(serverPath, "bedrock_server.exe"))
 // Start the http server
 console.log("Starting the http server...")
 const server = createServer((req) => {
-  req.on("data", (chunk) => {
-    console.log(chunk.toString())
+  // Declare a chunk buffer
+ const chunks: Buffer[] = []
 
-    // Kill the bedrock server and close the http server
-    server.close()
+  req.on("data", (chunk: Buffer) => {
+    chunks.push(chunk)
+  })
+
+  req.on("end", () => {
+    // Combine the chunks
+    const chunk = Buffer.concat(chunks)
+
+    // Parse the incoming data
+    const json = JSON.parse(chunk.toString()) as DumpRequest
+
+    // Write the states to the dump folder
+    writeFileSync(resolve(dumpPath, "states.json"), JSON.stringify(json.states, null, 2))
+
+    // Write the types to the dump folder
+    writeFileSync(resolve(dumpPath, "types.json"), JSON.stringify(json.types, null, 2))
+
+    // Prepare the permutations array
+    const permutations: { identifier: string, state: BlockState, loggable: boolean }[] = []
+
+    // Iterate through each type
+    for (const type of json.types) {
+      // Get the values of each state
+      const values = type.states.map(state => json.states.find(s => s.identifier === state)!.values)
+
+      // Generate the block states
+      const perms = generateBlockStates(type.states, values).map((permutation) => {
+        return {
+          identifier: type.identifier,
+          loggable: type.loggable,
+          state: permutation
+        }
+      })
+
+      // Push the permutations to the array
+      permutations.push(...perms)
+    }
+
+    // Write the permutations to the dump folder
+    writeFileSync(resolve(dumpPath, "permutations.json"), JSON.stringify(permutations, null, 2))
+
+    console.log("Dumped the states, types, and permutations to the dump folder!")
+
+    // Close the bedrock server executable
     bedrock.kill()
+    server.close()
   })
 })
 

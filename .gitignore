@@ -9,6 +9,7 @@ lerna-debug.log*
 
 # Ingore the server dir & contents
 server
+dump
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
