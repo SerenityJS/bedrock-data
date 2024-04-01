@@ -8,13 +8,14 @@
 
 // server.listen(8080, "localhost")
 
-import { readdirSync, existsSync, mkdirSync, copyFileSync, writeFileSync, readFileSync } from "node:fs"
+import { existsSync, mkdirSync, writeFileSync, readFileSync } from "node:fs"
 import { resolve } from "node:path"
 
 import { copyDirRecursive } from './copy'
-import { exec, spawnSync } from "node:child_process"
+import { exec } from "node:child_process"
 import { createServer } from "node:http"
-import { BlockState, generateBlockStates } from "./generate"
+import { generateBlockStates } from "./generate"
+import type { BlockState } from "./generate"
 
 const serverPath = resolve(process.cwd(), "server")
 const dumpPath = resolve(process.cwd(), "dump")
@@ -71,7 +72,7 @@ copyDirRecursive(addonPath, resolve(serverPath, "development_behavior_packs/pale
 // Check for the bedrock server executable
 if (!existsSync(resolve(serverPath, "bedrock_server.exe"))) {
   // Throw an error if the bedrock server executable is not found
-  throw new Error("Bedrock server executable not found, please place the latest version of the bedrock server executable in the server folder!")
+  console.log("Bedrock server executable not found, please place the latest version of the bedrock server executable in the server folder!")
 }
 
 // Check for the server.properties file

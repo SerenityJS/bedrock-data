@@ -35,4 +35,4 @@ function generateBlockStates(properties: string[], values: (string | number | bo
   return blockStates;
 }
 
-export { BlockState, generateBlockStates }
+export { type BlockState, generateBlockStates }

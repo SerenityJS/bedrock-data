@@ -1,9 +1,9 @@
 {
   "private": true,
   "name": "palette-dumper",
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "bun@1.1.0",
   "scripts": {
-    "dev": "ts-node src/index.ts"
+    "start": "bun run src/index.ts"
   },
   "devDependencies": {
     "@minecraft/common": "^1.2.0",
@@ -11,6 +11,7 @@
     "@minecraft/server-net": "^1.0.0-beta.11940b24",
     "@types/node": "^20.11.30",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.3",
+    "@types/bun": "latest"
   }
 }
