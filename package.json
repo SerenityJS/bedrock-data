@@ -13,5 +13,9 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3",
     "@types/bun": "latest"
+  },
+  "dependencies": {
+    "@serenityjs/binarystream": "^1.0.10",
+    "@serenityjs/nbt": "^1.0.10"
   }
 }

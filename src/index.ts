@@ -1,13 +1,3 @@
-// import { createServer } from "node:http"
-
-// const server = createServer((req, res) => {
-//   req.on("data", (chunk) => {
-//     console.log(chunk.toString())
-//   })
-// })
-
-// server.listen(8080, "localhost")
-
 import { existsSync, mkdirSync, writeFileSync, readFileSync } from "node:fs"
 import { resolve } from "node:path"
 
@@ -16,6 +6,7 @@ import { exec } from "node:child_process"
 import { createServer } from "node:http"
 import { generateBlockStates } from "./generate"
 import type { BlockState } from "./generate"
+import { hash } from "./hash"
 
 const serverPath = resolve(process.cwd(), "server")
 const dumpPath = resolve(process.cwd(), "dump")
@@ -116,10 +107,10 @@ const server = createServer((req) => {
     const json = JSON.parse(chunk.toString()) as DumpRequest
 
     // Write the states to the dump folder
-    writeFileSync(resolve(dumpPath, "states.json"), JSON.stringify(json.states, null, 2))
+    writeFileSync(resolve(dumpPath, "block_states.json"), JSON.stringify(json.states, null, 2))
 
     // Write the types to the dump folder
-    writeFileSync(resolve(dumpPath, "types.json"), JSON.stringify(json.types, null, 2))
+    writeFileSync(resolve(dumpPath, "block_types.json"), JSON.stringify(json.types, null, 2))
 
     // Prepare the permutations array
     const permutations: { identifier: string, state: BlockState, loggable: boolean }[] = []
@@ -133,6 +124,7 @@ const server = createServer((req) => {
       const perms = generateBlockStates(type.states, values).map((permutation) => {
         return {
           identifier: type.identifier,
+          hash: hash(type.identifier, permutation),
           loggable: type.loggable,
           state: permutation
         }
@@ -143,7 +135,7 @@ const server = createServer((req) => {
     }
 
     // Write the permutations to the dump folder
-    writeFileSync(resolve(dumpPath, "permutations.json"), JSON.stringify(permutations, null, 2))
+    writeFileSync(resolve(dumpPath, "block_permutations.json"), JSON.stringify(permutations, null, 2))
 
     console.log("Dumped the states, types, and permutations to the dump folder!")
 
