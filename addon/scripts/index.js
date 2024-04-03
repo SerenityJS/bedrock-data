@@ -16,8 +16,8 @@ const types = BlockTypes.getAll().map((type) => {
 
   return {
     identifier: type.id,
-    states: Object.keys(permutation.getAllStates()),
     loggable: type.canBeWaterlogged,
+    states: Object.keys(permutation.getAllStates()),
   }
 })
 

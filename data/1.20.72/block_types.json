@@ -1,2888 +1,2889 @@
 [
   {
     "identifier": "minecraft:trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_blue_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:gravel",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:detector_rail",
+    "loggable": true,
     "states": [
       "rail_data_bit",
       "rail_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cyan_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_pink_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:light_gray_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:blue_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:nether_gold_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_basalt",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:blue_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:tuff_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:coral_fan_dead",
+    "loggable": true,
     "states": [
       "coral_color",
       "coral_fan_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:tuff_brick_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:acacia_wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:bamboo_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:melon_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:red_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:gold_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:birch_standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_cut_copper_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_93",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_98",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:red_nether_brick",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:oxidized_cut_copper_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:warped_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:polished_granite_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:red_mushroom_block",
+    "loggable": false,
     "states": [
       "huge_mushroom_bits"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:blue_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:bamboo_block",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:white_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:wooden_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:piston_arm_collision",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:end_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:sculk_shrieker",
+    "loggable": true,
     "states": [
       "active",
       "can_summon"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:bamboo_mosaic_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:vine",
+    "loggable": true,
     "states": [
       "vine_direction_bits"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_oxidized_chiseled_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:granite",
+    "loggable": false,
     "states": [
       "stone_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lime_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:polished_tuff_slab",
+    "loggable": true,
     "states": [
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:brown_mushroom",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cut_copper_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_20",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:blue_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_0",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:exposed_copper_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:blackstone_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:spruce_standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_118",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_tile_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:powder_snow",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:magenta_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_tile_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:calcite",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:gray_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cyan_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cyan_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_copper_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stone_brick_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:spruce_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:diamond_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:waxed_oxidized_cut_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:gray_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:green_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_purple_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_73",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:waxed_copper_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:nether_brick_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_blue_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:yellow_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:chiseled_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:granite_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:gray_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:green_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lime_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:oxidized_copper_bulb",
+    "loggable": false,
     "states": [
       "powered_bit",
       "lit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cobbled_deepslate_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_exposed_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stripped_acacia_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_16",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:jungle_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:powered_repeater",
+    "loggable": true,
     "states": [
       "direction",
       "repeater_delay",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:spruce_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:loom",
+    "loggable": false,
     "states": [
       "direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_green_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_104",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:yellow_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:jungle_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:darkoak_wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:diorite",
+    "loggable": false,
     "states": [
       "stone_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:oxidized_double_cut_copper_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dripstone_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:gray_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:info_update2",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:exposed_copper_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:blue_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hanging_roots",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:hard_light_blue_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:red_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cherry_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_brown_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cherry_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:yellow_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:black_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:crimson_wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:polished_blackstone_brick_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:oak_fence",
+    "loggable": true,
     "states": [
       "wood_type"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:grindstone",
+    "loggable": true,
     "states": [
       "direction",
       "attachment"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:gray_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:wheat",
+    "loggable": false,
     "states": [
       "growth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_46",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:yellow_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_slab",
+    "loggable": true,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:honeycomb_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:sapling",
+    "loggable": false,
     "states": [
       "sapling_type",
       "age_bit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_light_gray_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:end_gateway",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stone_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:beacon",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_blackstone_brick_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:snow_layer",
+    "loggable": false,
     "states": [
       "covered_bit",
       "height"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_pink_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:white_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:black_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cactus",
+    "loggable": true,
     "states": [
       "age"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:glow_frame",
+    "loggable": true,
     "states": [
       "facing_direction",
       "item_frame_map_bit",
       "item_frame_photo_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mud_brick_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:bamboo_mosaic_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:bamboo_fence",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:prismarine_bricks_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:crimson_hyphae",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:black_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:red_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:stripped_dark_oak_log",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_orange_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:oxidized_copper_grate",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:jungle_log",
+    "loggable": false,
     "states": [
       "old_log_type",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:bamboo_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:lit_redstone_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:orange_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:nether_wart",
+    "loggable": false,
     "states": [
       "age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:stripped_mangrove_wood",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:mossy_cobblestone",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_113",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:blue_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cake",
+    "loggable": true,
     "states": [
       "bite_counter"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:lime_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_black_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:undyed_shulker_box",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:quartz_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:info_update",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:seagrass",
+    "loggable": true,
     "states": [
       "sea_grass_type"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cherry_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:barrel",
+    "loggable": false,
     "states": [
       "facing_direction",
       "open_bit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:big_dripleaf",
+    "loggable": true,
     "states": [
       "direction",
       "big_dripleaf_tilt",
       "minecraft:cardinal_direction",
       "big_dripleaf_head"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_exposed_cut_copper_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dead_horn_coral",
+    "loggable": true,
     "states": [
       "coral_color",
       "dead_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:redstone_lamp",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_68",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stripped_oak_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:deepslate",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_double_slab",
+    "loggable": false,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:double_stone_block_slab3",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "stone_slab_type_3",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:stripped_crimson_hyphae",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:green_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:magenta_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:pitcher_crop",
+    "loggable": false,
     "states": [
       "upper_block_bit",
       "growth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:brown_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:pink_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:warped_standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deadbush",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:ender_chest",
+    "loggable": true,
     "states": [
       "facing_direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_exposed_chiseled_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:tuff_slab",
+    "loggable": true,
     "states": [
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:redstone_wire",
+    "loggable": false,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:warped_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:green_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:diamond_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:exposed_copper_bulb",
+    "loggable": false,
     "states": [
       "powered_bit",
       "lit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:oak_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_gray_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_weathered_cut_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:oak_log",
+    "loggable": false,
     "states": [
       "old_log_type",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:andesite",
+    "loggable": false,
     "states": [
       "stone_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:brown_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:sculk_vein",
+    "loggable": true,
     "states": [
       "multi_face_direction_bits"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:pink_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:exposed_double_cut_copper_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:magenta_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:purple_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:packed_ice",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_granite",
+    "loggable": false,
     "states": [
       "stone_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:oxidized_cut_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:iron_bars",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:light_blue_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_39",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:packed_mud",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_21",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:light_blue_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_1",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:moss_carpet",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:crimson_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:green_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:warped_fungus",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_102",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:copper_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:gray_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:polished_deepslate_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:jungle_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:spruce_wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:bamboo_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:black_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:amethyst_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:melon_stem",
+    "loggable": false,
     "states": [
       "facing_direction",
       "growth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:gold_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stripped_oak_log",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:flower_pot",
+    "loggable": true,
     "states": [
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:chiseled_bookshelf",
+    "loggable": false,
     "states": [
       "direction",
       "books_stored"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:jungle_fence",
+    "loggable": true,
     "states": [
       "wood_type"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:spruce_log",
+    "loggable": false,
     "states": [
       "old_log_type",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:polished_deepslate_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_lime_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:brown_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:pink_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_weathered_copper_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:carved_pumpkin",
+    "loggable": false,
     "states": [
       "direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:yellow_flower",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:lapis_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:weathered_chiseled_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:coral_fan",
+    "loggable": true,
     "states": [
       "coral_color",
       "coral_fan_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:small_amethyst_bud",
+    "loggable": true,
     "states": [
       "facing_direction",
       "minecraft:block_face"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:activator_rail",
+    "loggable": true,
     "states": [
       "rail_data_bit",
       "rail_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:podzol",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:mangrove_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:iron_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:potatoes",
+    "loggable": false,
     "states": [
       "growth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:large_amethyst_bud",
+    "loggable": true,
     "states": [
       "facing_direction",
       "minecraft:block_face"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:muddy_mangrove_roots",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_light_blue_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:trial_spawner",
+    "loggable": true,
     "states": [
       "trial_spawner_state"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stripped_jungle_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:noteblock",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:tuff",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:reserved6",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:soul_torch",
+    "loggable": false,
     "states": [
       "torch_facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:quartz_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:mangrove_log",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:raw_gold_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:white_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mob_spawner",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:copper_grate",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:weathered_double_cut_copper_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:deepslate_tiles",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:black_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lava",
+    "loggable": false,
     "states": [
       "liquid_depth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:acacia_fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cyan_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:orange_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:colored_torch_bp",
+    "loggable": false,
     "states": [
       "color_bit",
       "torch_facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:scaffolding",
+    "loggable": true,
     "states": [
       "stability",
       "stability_check"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cyan_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:powered_comparator",
+    "loggable": true,
     "states": [
       "output_lit_bit",
       "direction",
       "output_subtract_bit",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_oxidized_cut_copper_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:warped_wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:spruce_fence",
+    "loggable": true,
     "states": [
       "wood_type"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:pink_petals",
+    "loggable": true,
     "states": [
       "direction",
       "growth",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:soul_fire",
+    "loggable": false,
     "states": [
       "age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:mangrove_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:pink_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:brown_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:oxidized_copper_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_gray_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:brain_coral",
+    "loggable": true,
     "states": [
       "coral_color",
       "dead_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:white_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:obsidian",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:light_gray_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:blackstone_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stripped_spruce_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cauldron",
+    "loggable": false,
     "states": [
       "fill_level",
       "cauldron_liquid"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:glowingobsidian",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:deepslate_brick_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:darkoak_standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_exposed_copper_grate",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:acacia_planks",
+    "loggable": false,
     "states": [
       "wood_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:jungle_wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:end_brick_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_85",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_blackstone_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:orange_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:exposed_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_deepslate_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:heavy_weighted_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stone_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_89",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:pitcher_plant",
+    "loggable": false,
     "states": [
       "upper_block_bit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_101",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:waxed_copper_bulb",
+    "loggable": false,
     "states": [
       "powered_bit",
       "lit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:sponge",
+    "loggable": false,
     "states": [
       "sponge_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:andesite_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:bone_block",
+    "loggable": false,
     "states": [
       "deprecated",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:normal_stone_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:warped_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:frame",
+    "loggable": true,
     "states": [
       "facing_direction",
       "item_frame_map_bit",
       "item_frame_photo_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:smoker",
+    "loggable": false,
     "states": [
       "facing_direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hardened_clay",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:birch_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:polished_tuff_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:unlit_redstone_torch",
+    "loggable": false,
     "states": [
       "torch_facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:stripped_jungle_log",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:light_gray_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:pink_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_magenta_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:brown_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:fire_coral",
+    "loggable": true,
     "states": [
       "coral_color",
       "dead_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stone",
+    "loggable": false,
     "states": [
       "stone_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:birch_log",
+    "loggable": false,
     "states": [
       "old_log_type",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_99",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cobbled_deepslate",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:hard_glass_pane",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:orange_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:orange_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:polished_blackstone_brick_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:kelp",
+    "loggable": true,
     "states": [
       "kelp_age"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:crimson_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:underwater_torch",
+    "loggable": true,
     "states": [
       "torch_facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:respawn_anchor",
+    "loggable": false,
     "states": [
       "respawn_anchor_charge"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:light_gray_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:purple_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:green_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:birch_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_43",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:hay_block",
+    "loggable": false,
     "states": [
       "deprecated",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:red_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:purple_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:polished_tuff_double_slab",
+    "loggable": false,
     "states": [
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:jungle_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:suspicious_gravel",
+    "loggable": false,
     "states": [
       "hanging",
       "brushed_progress"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:oxidized_copper_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_weathered_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:invisible_bedrock",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:oak_leaves",
+    "loggable": true,
     "states": [
       "persistent_bit",
       "old_leaf_type",
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:flowering_azalea",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:deepslate_brick_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:bamboo_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:torch",
+    "loggable": false,
     "states": [
       "torch_facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:glow_lichen",
+    "loggable": true,
     "states": [
       "multi_face_direction_bits"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:copper_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:red_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mud_brick_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:honey_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cherry_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:brown_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lit_pumpkin",
+    "loggable": false,
     "states": [
       "direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:pink_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:yellow_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:smooth_basalt",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stonecutter",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:warped_planks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:piston",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_copper_grate",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:tallgrass",
+    "loggable": false,
     "states": [
       "tall_grass_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dead_brain_coral",
+    "loggable": true,
     "states": [
       "coral_color",
       "dead_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cherry_fence",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:mangrove_planks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:hard_light_gray_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:red_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:weathered_copper_grate",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:element_77",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:water",
+    "loggable": false,
     "states": [
       "liquid_depth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:weathered_copper_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:magenta_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_weathered_copper_grate",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:waxed_weathered_copper_bulb",
+    "loggable": false,
     "states": [
       "powered_bit",
       "lit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:verdant_froglight",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:magenta_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mangrove_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:infested_deepslate",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:orange_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:client_request_placeholder_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:hard_brown_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:torchflower",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:waxed_exposed_copper_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:spore_blossom",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:waterlily",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stripped_dark_oak_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:emerald_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:suspicious_sand",
+    "loggable": false,
     "states": [
       "hanging",
       "brushed_progress"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:ancient_debris",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:jungle_leaves",
+    "loggable": true,
     "states": [
       "persistent_bit",
       "old_leaf_type",
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_planks",
+    "loggable": false,
     "states": [
       "wood_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:conduit",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:anvil",
+    "loggable": true,
     "states": [
       "direction",
       "damage",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:polished_andesite",
+    "loggable": false,
     "states": [
       "stone_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:purple_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lightning_rod",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:acacia_leaves",
+    "loggable": true,
     "states": [
       "new_leaf_type",
       "persistent_bit",
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:barrier",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:nether_brick_fence",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:black_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:magenta_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cobblestone_wall",
+    "loggable": true,
     "states": [
       "wall_block_type",
       "wall_post_bit",
@@ -2890,4398 +2891,4397 @@
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_blue_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_brick_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_91",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:spruce_double_slab",
+    "loggable": false,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:red_sandstone",
+    "loggable": false,
     "states": [
       "sand_stone_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_log",
+    "loggable": false,
     "states": [
       "new_log_type",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:oak_planks",
+    "loggable": false,
     "states": [
       "wood_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:redstone_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:acacia_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_41",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:ochre_froglight",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:polished_blackstone_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:tuff_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mangrove_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:observer",
+    "loggable": false,
     "states": [
       "facing_direction",
       "powered_bit",
       "minecraft:facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:pink_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:yellow_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:brown_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:brown_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:pink_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:quartz_block",
+    "loggable": false,
     "states": [
       "chisel_type",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:redstone_torch",
+    "loggable": false,
     "states": [
       "torch_facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:birch_leaves",
+    "loggable": true,
     "states": [
       "persistent_bit",
       "old_leaf_type",
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:silver_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cyan_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:oxidized_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:birch_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_19",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:sandstone_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_49",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stripped_bamboo_block",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:birch_fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:sculk_catalyst",
+    "loggable": false,
     "states": [
       "bloom"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_115",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cobblestone",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cherry_planks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:white_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:horn_coral",
+    "loggable": true,
     "states": [
       "coral_color",
       "dead_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:yellow_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:daylight_detector_inverted",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:red_flower",
+    "loggable": false,
     "states": [
       "flower_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:jungle_planks",
+    "loggable": false,
     "states": [
       "wood_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:oak_double_slab",
+    "loggable": false,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:stripped_warped_stem",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:daylight_detector",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:repeating_command_block",
+    "loggable": false,
     "states": [
       "conditional_bit",
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:smooth_sandstone_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:jungle_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_white_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:double_cut_copper_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:crimson_planks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:birch_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:sandstone",
+    "loggable": false,
     "states": [
       "sand_stone_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:blackstone_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_weighted_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:polished_blackstone",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:mycelium",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_72",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:bamboo",
+    "loggable": false,
     "states": [
       "bamboo_stalk_thickness",
       "age_bit",
       "bamboo_leaf_size"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:iron_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:waxed_weathered_chiseled_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_17",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:gray_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_51",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:sticky_piston_arm_collision",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:warped_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_52",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:exposed_cut_copper_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_oxidized_copper_grate",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:stonebrick",
+    "loggable": false,
     "states": [
       "stone_brick_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:oxidized_chiseled_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:bedrock",
+    "loggable": false,
     "states": [
       "infiniburn_bit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:smithing_table",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:tuff_brick_slab",
+    "loggable": true,
     "states": [
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:warped_roots",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:small_dripleaf_block",
+    "loggable": true,
     "states": [
       "direction",
       "upper_block_bit",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:green_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lime_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:green_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:purple_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:netherite_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:redstone_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_blackstone_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_exposed_cut_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:gilded_blackstone",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:jungle_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:blue_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cherry_wood",
+    "loggable": false,
     "states": [
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:birch_slab",
+    "loggable": true,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:end_stone",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:double_plant",
+    "loggable": false,
     "states": [
       "upper_block_bit",
       "double_plant_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:crimson_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:jungle_slab",
+    "loggable": true,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_oxidized_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:glowstone",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stone_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:quartz_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_exposed_cut_copper_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_lime_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mud_brick_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cracked_deepslate_tiles",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:farmland",
+    "loggable": false,
     "states": [
       "moisturized_amount"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:rail",
+    "loggable": true,
     "states": [
       "rail_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:soul_lantern",
+    "loggable": true,
     "states": [
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:carrots",
+    "loggable": false,
     "states": [
       "growth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:acacia_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mossy_cobblestone_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_67",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:coral_fan_hang2",
+    "loggable": true,
     "states": [
       "dead_bit",
       "coral_direction",
       "coral_hang_type_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_66",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_deepslate_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:coral_fan_hang3",
+    "loggable": true,
     "states": [
       "dead_bit",
       "coral_direction",
       "coral_hang_type_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_magenta_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:monster_egg",
+    "loggable": false,
     "states": [
       "monster_egg_stone_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:mangrove_wood",
+    "loggable": false,
     "states": [
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:crafting_table",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:red_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:tube_coral",
+    "loggable": true,
     "states": [
       "coral_color",
       "dead_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:bamboo_mosaic_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_58",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cherry_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:crimson_nylium",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:warped_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:structure_void",
+    "loggable": false,
     "states": [
       "structure_void_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:purple_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:bamboo_fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:white_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_exposed_copper_bulb",
+    "loggable": false,
     "states": [
       "powered_bit",
       "lit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:bubble_coral",
+    "loggable": true,
     "states": [
       "coral_color",
       "dead_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:coal_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_blackstone_brick_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_yellow_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:snow",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:calibrated_sculk_sensor",
+    "loggable": true,
     "states": [
       "sculk_sensor_phase",
       "direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:yellow_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:oak_slab",
+    "loggable": true,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:sand",
+    "loggable": false,
     "states": [
       "sand_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:mangrove_standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:slime",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_117",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_blackstone_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stone_block_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "stone_slab_type",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:chiseled_polished_blackstone",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:bamboo_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:azalea_leaves",
+    "loggable": true,
     "states": [
       "persistent_bit",
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:green_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:brown_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cracked_deepslate_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:pink_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dead_tube_coral",
+    "loggable": true,
     "states": [
       "coral_color",
       "dead_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:orange_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_blue_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:nether_wart_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:acacia_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:golden_rail",
+    "loggable": true,
     "states": [
       "rail_data_bit",
       "rail_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:lit_furnace",
+    "loggable": false,
     "states": [
       "facing_direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cherry_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:weathered_cut_copper_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:spruce_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:wall_banner",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:acacia_log",
+    "loggable": false,
     "states": [
       "new_log_type",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:flowing_lava",
+    "loggable": false,
     "states": [
       "liquid_depth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:white_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_84",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:crimson_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:blue_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_79",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:warped_fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:basalt",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_weathered_copper_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_cyan_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:polished_diorite",
+    "loggable": false,
     "states": [
       "stone_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_13",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cyan_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:light_blue_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_double_cut_copper_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_44",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:lit_redstone_lamp",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:hard_blue_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lapis_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:oxidized_cut_copper_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:beehive",
+    "loggable": false,
     "states": [
       "direction",
       "honey_level"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_purple_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:yellow_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:sticky_piston",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:medium_amethyst_bud",
+    "loggable": true,
     "states": [
       "facing_direction",
       "minecraft:block_face"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:brown_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:pink_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_blue_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_tile_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:sculk_sensor",
+    "loggable": true,
     "states": [
       "powered_bit",
       "sculk_sensor_phase"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_26",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:copper_bulb",
+    "loggable": false,
     "states": [
       "powered_bit",
       "lit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_6",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:diorite_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_97",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:spruce_leaves",
+    "loggable": true,
     "states": [
       "persistent_bit",
       "old_leaf_type",
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:red_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:frog_spawn",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:element_111",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:red_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stripped_cherry_log",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dirt_with_roots",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:bamboo_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:copper_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:crimson_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:magenta_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:prismarine_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:iron_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mangrove_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:chorus_flower",
+    "loggable": false,
     "states": [
       "age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:torchflower_crop",
+    "loggable": false,
     "states": [
       "growth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lime_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:coral_fan_hang",
+    "loggable": true,
     "states": [
       "dead_bit",
       "coral_direction",
       "coral_hang_type_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mangrove_leaves",
+    "loggable": true,
     "states": [
       "persistent_bit",
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stripped_birch_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:polished_blackstone_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cracked_nether_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:pumpkin",
+    "loggable": false,
     "states": [
       "direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:smooth_stone",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:lime_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_weathered_cut_copper_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:red_mushroom",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:hard_yellow_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:magenta_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:black_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:exposed_cut_copper_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mangrove_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:unknown",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:light_blue_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:mangrove_fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:allow",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:gray_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:bamboo_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:wither_rose",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:copper_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:crimson_fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:birch_double_slab",
+    "loggable": false,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_weathered_double_cut_copper_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cut_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:frosted_ice",
+    "loggable": false,
     "states": [
       "age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:spruce_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:warped_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:orange_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:flowing_water",
+    "loggable": false,
     "states": [
       "liquid_depth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:brick_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:portal",
+    "loggable": false,
     "states": [
       "portal_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_glass",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cave_vines",
+    "loggable": false,
     "states": [
       "growing_plant_age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:magenta_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_blue_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_62",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:oak_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:oak_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_exposed_double_cut_copper_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_oxidized_copper_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:jukebox",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stripped_cherry_wood",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:jigsaw",
+    "loggable": true,
     "states": [
       "facing_direction",
       "rotation"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:acacia_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:border_block",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:shroomlight",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:yellow_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_tile_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:glass_pane",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:chiseled_deepslate",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cut_copper_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:coral_block",
+    "loggable": false,
     "states": [
       "dead_bit",
       "coral_color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:mud_brick_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mangrove_wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:raw_copper_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:beetroot",
+    "loggable": false,
     "states": [
       "growth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:skull",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_gray_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_diamond_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:white_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_95",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:birch_planks",
+    "loggable": false,
     "states": [
       "wood_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:sea_pickle",
+    "loggable": true,
     "states": [
       "dead_bit",
       "cluster_count"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cyan_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:gray_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:red_sandstone_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:jungle_fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:exposed_copper_grate",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:coal_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:composter",
+    "loggable": true,
     "states": [
       "composter_fill_level"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:blue_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:clay",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:weeping_vines",
+    "loggable": false,
     "states": [
       "weeping_vines_age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:chorus_plant",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:unpowered_repeater",
+    "loggable": true,
     "states": [
       "direction",
       "repeater_delay",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:smooth_red_sandstone_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_100",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_103",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_105",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:crimson_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_106",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_107",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:hard_gray_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_108",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_109",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:light_gray_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_112",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_110",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_116",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_114",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:white_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:stripped_warped_hyphae",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:pumpkin_stem",
+    "loggable": false,
     "states": [
       "facing_direction",
       "growth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lever",
+    "loggable": true,
     "states": [
       "lever_direction",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_50",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:moving_block",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:trapped_chest",
+    "loggable": true,
     "states": [
       "facing_direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stone_block_slab4",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "stone_slab_type_4",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:purple_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:bamboo_planks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:twisting_vines",
+    "loggable": false,
     "states": [
       "twisting_vines_age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:command_block",
+    "loggable": false,
     "states": [
       "conditional_bit",
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:acacia_double_slab",
+    "loggable": false,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dirt",
+    "loggable": false,
     "states": [
       "dirt_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:reeds",
+    "loggable": false,
     "states": [
       "age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:magma",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:deny",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:bee_nest",
+    "loggable": false,
     "states": [
       "direction",
       "honey_level"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:bubble_column",
+    "loggable": true,
     "states": [
       "drag_down"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:campfire",
+    "loggable": true,
     "states": [
       "direction",
       "minecraft:cardinal_direction",
       "extinguished"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stone_block_slab2",
+    "loggable": true,
     "states": [
       "stone_slab_type_2",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stone_block_slab3",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "stone_slab_type_3",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_28",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:soul_soil",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_8",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:soul_sand",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cobbled_deepslate_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_86",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:spruce_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:reinforced_deepslate",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:end_rod",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:fletching_table",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cherry_leaves",
+    "loggable": true,
     "states": [
       "persistent_bit",
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:black_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_oxidized_cut_copper_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stripped_acacia_log",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:sniffer_egg",
+    "loggable": false,
     "states": [
       "cracked_state"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:warped_fence",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:cave_vines_body_with_berries",
+    "loggable": false,
     "states": [
       "growing_plant_age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cherry_standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mangrove_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_32",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:waxed_exposed_copper_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:pink_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:brown_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_87",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:mossy_stone_brick_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:crimson_stem",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:colored_torch_rg",
+    "loggable": false,
     "states": [
       "color_bit",
       "torch_facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:tuff_brick_double_slab",
+    "loggable": false,
     "states": [
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:vault",
+    "loggable": false,
     "states": [
       "vault_state",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:azalea_leaves_flowered",
+    "loggable": true,
     "states": [
       "persistent_bit",
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_18",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:crimson_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:bamboo_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:warped_hyphae",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:warped_wart_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:tuff_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:yellow_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:black_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_oxidized_copper_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:grass_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:tripwire_hook",
+    "loggable": true,
     "states": [
       "attached_bit",
       "direction",
       "powered_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_black_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:stripped_birch_log",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:structure_block",
+    "loggable": false,
     "states": [
       "structure_block_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:tinted_glass",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:lime_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:blue_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:sweet_berry_bush",
+    "loggable": false,
     "states": [
       "growth"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_56",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_blackstone_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:black_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:blue_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:jungle_standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:web",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:lime_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cherry_double_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:weathered_cut_copper_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cocoa",
+    "loggable": true,
     "states": [
       "age",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dark_oak_leaves",
+    "loggable": true,
     "states": [
       "new_leaf_type",
       "persistent_bit",
       "update_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:orange_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:fire",
+    "loggable": false,
     "states": [
       "age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:end_portal_frame",
+    "loggable": true,
     "states": [
       "direction",
       "end_portal_eye_bit",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:prismarine",
+    "loggable": false,
     "states": [
       "prismarine_block_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:magenta_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_gold_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:hard_orange_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:glass",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:moss_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:exposed_cut_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:bookshelf",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:waxed_weathered_cut_copper_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mangrove_roots",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:acacia_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:polished_andesite_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cherry_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:polished_blackstone_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:acacia_standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:sculk",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:tuff_brick_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:chemistry_table",
+    "loggable": false,
     "states": [
       "direction",
       "chemistry_table_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dead_fire_coral",
+    "loggable": true,
     "states": [
       "coral_color",
       "dead_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stripped_spruce_log",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:waxed_oxidized_copper_bulb",
+    "loggable": false,
     "states": [
       "powered_bit",
       "lit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:deepslate_brick_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:warped_nylium",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:deepslate_emerald_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:stripped_crimson_stem",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cyan_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:unpowered_comparator",
+    "loggable": true,
     "states": [
       "output_lit_bit",
       "direction",
       "output_subtract_bit",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_37",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:lime_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:target",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:wooden_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mangrove_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:weathered_copper_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:pearlescent_froglight",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:double_stone_block_slab2",
+    "loggable": false,
     "states": [
       "stone_slab_type_2",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:double_stone_block_slab4",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "stone_slab_type_4",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:nether_sprouts",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_64",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cyan_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_92",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:warped_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:furnace",
+    "loggable": false,
     "states": [
       "facing_direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:netherrack",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:warped_stem",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:green_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_green_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:brick_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:spruce_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:purple_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_69",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:chain_command_block",
+    "loggable": false,
     "states": [
       "conditional_bit",
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:double_stone_block_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "stone_slab_type",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:exposed_chiseled_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:spruce_fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:crimson_fence",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:red_nether_brick_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:green_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:deepslate_redstone_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:mangrove_fence",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:birch_trapdoor",
+    "loggable": true,
     "states": [
       "direction",
       "open_bit",
       "upside_down_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mud",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:ice",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:air",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:bed",
+    "loggable": true,
     "states": [
       "direction",
       "head_piece_bit",
       "occupied_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_blue_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:black_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:tnt",
+    "loggable": false,
     "states": [
       "explode_bit",
       "allow_underwater_bit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:polished_diorite_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:orange_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:netherreactor",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_83",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:crying_obsidian",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:lime_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:decorated_pot",
+    "loggable": true,
     "states": [
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:enchanting_table",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:azalea",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:bell",
+    "loggable": true,
     "states": [
       "direction",
       "toggle_bit",
       "attachment"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mud_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:birch_wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:bamboo_wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:acacia_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:gray_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hopper",
+    "loggable": true,
     "states": [
       "toggle_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_red_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lectern",
+    "loggable": true,
     "states": [
       "direction",
       "powered_bit",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:acacia_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:standing_banner",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_blue_shulker_box",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_oxidized_double_cut_copper_slab",
+    "loggable": false,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:sea_lantern",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:jungle_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:mangrove_propagule",
+    "loggable": true,
     "states": [
       "hanging",
       "propagule_stage"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:budding_amethyst",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:birch_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:spruce_slab",
+    "loggable": true,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:blackstone_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:blue_ice",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:hard_red_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:purple_candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:lantern",
+    "loggable": true,
     "states": [
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:lit_blast_furnace",
+    "loggable": false,
     "states": [
       "facing_direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_11",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:dark_oak_fence",
+    "loggable": true,
     "states": [
       "wood_type"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:birch_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:chest",
+    "loggable": true,
     "states": [
       "facing_direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:chain",
+    "loggable": true,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_lapis_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:crimson_hanging_sign",
+    "loggable": true,
     "states": [
       "facing_direction",
       "attached_bit",
       "ground_sign_direction",
       "hanging"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:deepslate_coal_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:weathered_cut_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cracked_polished_blackstone_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:bamboo_standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stripped_mangrove_log",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:polished_tuff",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:magenta_stained_glass",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:weathered_copper_bulb",
+    "loggable": false,
     "states": [
       "powered_bit",
       "lit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:hard_white_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:hard_cyan_stained_glass_pane",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:chiseled_nether_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:warped_button",
+    "loggable": true,
     "states": [
       "button_pressed_bit",
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:red_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:light_gray_concrete_powder",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:dead_bubble_coral",
+    "loggable": true,
     "states": [
       "coral_color",
       "dead_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cherry_sapling",
+    "loggable": false,
     "states": [
       "age_bit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cherry_log",
+    "loggable": false,
     "states": [
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cyan_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:polished_tuff_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dragon_egg",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:nether_brick",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:deepslate_iron_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_23",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_3",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_22",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_2",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_25",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_5",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_24",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_4",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_27",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_7",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_29",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_9",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:camera",
-    "states": [],
-    "loggable": true
+    "loggable": true,
+    "states": []
   },
   {
     "identifier": "minecraft:waxed_cut_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:cobbled_deepslate_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:element_47",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:crimson_standing_sign",
+    "loggable": true,
     "states": [
       "ground_sign_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:emerald_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:brown_mushroom_block",
+    "loggable": false,
     "states": [
       "huge_mushroom_bits"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:element_61",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:dropper",
+    "loggable": false,
     "states": [
       "facing_direction",
       "triggered_bit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:candle",
+    "loggable": true,
     "states": [
       "lit",
       "candles"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cobbled_deepslate_wall",
+    "loggable": true,
     "states": [
       "wall_post_bit",
       "wall_connection_type_north",
       "wall_connection_type_east",
       "wall_connection_type_south",
       "wall_connection_type_west"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:pointed_dripstone",
+    "loggable": true,
     "states": [
       "hanging",
       "dripstone_thickness"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:red_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dark_prismarine_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:chiseled_tuff_bricks",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:chemical_heat",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:trip_wire",
+    "loggable": true,
     "states": [
       "attached_bit",
       "disarmed_bit",
       "powered_bit",
       "suspended_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cave_vines_head_with_berries",
+    "loggable": false,
     "states": [
       "growing_plant_age"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:brewing_stand",
+    "loggable": true,
     "states": [
       "brewing_stand_slot_a_bit",
       "brewing_stand_slot_b_bit",
       "brewing_stand_slot_c_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:bamboo_sapling",
+    "loggable": false,
     "states": [
       "sapling_type",
       "age_bit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:blast_furnace",
+    "loggable": false,
     "states": [
       "facing_direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:raw_iron_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:crimson_roots",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:dispenser",
+    "loggable": false,
     "states": [
       "facing_direction",
       "triggered_bit"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:acacia_slab",
+    "loggable": true,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:stonecutter_block",
+    "loggable": true,
     "states": [
       "facing_direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:white_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:end_portal",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:jungle_double_slab",
+    "loggable": false,
     "states": [
       "wood_type",
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:spruce_wood",
+    "loggable": false,
     "states": [
       "wood_type",
       "stripped_bit",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:blackstone",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:lit_deepslate_redstone_ore",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_10",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_12",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_14",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_15",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_36",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_34",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_35",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_33",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_30",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_31",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_38",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_59",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_54",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_55",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_57",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_53",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_48",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_45",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_42",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_40",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_70",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_71",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_76",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_74",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_75",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_78",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_65",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_60",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_63",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_90",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_94",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_96",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_88",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_82",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_81",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:element_80",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:lit_smoker",
+    "loggable": false,
     "states": [
       "facing_direction",
       "minecraft:cardinal_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:smooth_quartz_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_gray_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:purpur_block",
+    "loggable": false,
     "states": [
       "chisel_type",
       "pillar_axis"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cherry_wall_sign",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:purple_carpet",
+    "loggable": true,
     "states": [
       "color"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:crimson_fungus",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:polished_deepslate",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:tuff_double_slab",
+    "loggable": false,
     "states": [
       "minecraft:vertical_half"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:purpur_stairs",
+    "loggable": true,
     "states": [
       "upside_down_bit",
       "weirdo_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_copper_door",
+    "loggable": true,
     "states": [
       "door_hinge_bit",
       "open_bit",
       "upper_block_bit",
       "direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:crafter",
+    "loggable": false,
     "states": [
       "triggered_bit",
       "crafting",
       "orientation"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:spruce_planks",
+    "loggable": false,
     "states": [
       "wood_type"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:amethyst_cluster",
+    "loggable": true,
     "states": [
       "facing_direction",
       "minecraft:block_face"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:waxed_chiseled_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:waxed_cut_copper_slab",
+    "loggable": true,
     "states": [
       "top_slot_bit",
       "minecraft:vertical_half"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:dried_kelp_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:light_block",
+    "loggable": true,
     "states": [
       "block_light_level"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:chiseled_tuff",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:birch_fence",
+    "loggable": true,
     "states": [
       "wood_type"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:turtle_egg",
+    "loggable": true,
     "states": [
       "turtle_egg_count",
       "cracked_state"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:light_gray_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:soul_campfire",
+    "loggable": true,
     "states": [
       "direction",
       "minecraft:cardinal_direction",
       "extinguished"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:wooden_pressure_plate",
+    "loggable": true,
     "states": [
       "redstone_signal"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:white_concrete",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:acacia_fence",
+    "loggable": true,
     "states": [
       "wood_type"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:grass_path",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:orange_candle_cake",
+    "loggable": true,
     "states": [
       "lit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:weathered_copper",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:lime_terracotta",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:cherry_fence_gate",
+    "loggable": true,
     "states": [
       "direction",
       "in_wall_bit",
       "open_bit"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:gray_glazed_terracotta",
+    "loggable": false,
     "states": [
       "facing_direction"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:lodestone",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:bamboo_mosaic",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:purple_wool",
+    "loggable": false,
     "states": [
       "color"
-    ],
-    "loggable": false
+    ]
   },
   {
     "identifier": "minecraft:iron_block",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   },
   {
     "identifier": "minecraft:ladder",
+    "loggable": true,
     "states": [
       "facing_direction"
-    ],
-    "loggable": true
+    ]
   },
   {
     "identifier": "minecraft:cartography_table",
-    "states": [],
-    "loggable": false
+    "loggable": false,
+    "states": []
   }
 ]

@@ -113,7 +113,7 @@ const server = createServer((req) => {
     writeFileSync(resolve(dumpPath, "block_types.json"), JSON.stringify(json.types, null, 2))
 
     // Prepare the permutations array
-    const permutations: { identifier: string, state: BlockState, loggable: boolean }[] = []
+    const permutations: { identifier: string, hash: number, state: BlockState }[] = []
 
     // Iterate through each type
     for (const type of json.types) {
@@ -125,7 +125,6 @@ const server = createServer((req) => {
         return {
           identifier: type.identifier,
           hash: hash(type.identifier, permutation),
-          loggable: type.loggable,
           state: permutation
         }
       })
