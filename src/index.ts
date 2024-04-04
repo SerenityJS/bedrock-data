@@ -14,8 +14,9 @@ const templatePath = resolve(__dirname, "../template")
 const addonPath = resolve(__dirname, "../addon")
 
 interface DumpRequest {
-  states: { identifier: string, values: (string | number | boolean)[] }[]
-  types: { identifier: string, states: string[], loggable: boolean }[]
+  blockStates: { identifier: string, values: (string | number | boolean)[] }[]
+  blockTypes: { identifier: string, states: string[], loggable: boolean }[]
+  itemTypes: { identifier: string }[]
 }
 
 // Check if server folder exists
@@ -107,18 +108,21 @@ const server = createServer((req) => {
     const json = JSON.parse(chunk.toString()) as DumpRequest
 
     // Write the states to the dump folder
-    writeFileSync(resolve(dumpPath, "block_states.json"), JSON.stringify(json.states, null, 2))
+    writeFileSync(resolve(dumpPath, "block_states.json"), JSON.stringify(json.blockStates, null, 2))
 
     // Write the types to the dump folder
-    writeFileSync(resolve(dumpPath, "block_types.json"), JSON.stringify(json.types, null, 2))
+    writeFileSync(resolve(dumpPath, "block_types.json"), JSON.stringify(json.blockTypes, null, 2))
+
+    // Write the items to the dump folder
+    writeFileSync(resolve(dumpPath, "item_types.json"), JSON.stringify(json.itemTypes, null, 2))
 
     // Prepare the permutations array
     const permutations: { identifier: string, hash: number, state: BlockState }[] = []
 
     // Iterate through each type
-    for (const type of json.types) {
+    for (const type of json.blockTypes) {
       // Get the values of each state
-      const values = type.states.map(state => json.states.find(s => s.identifier === state)!.values)
+      const values = type.states.map(state => json.blockStates.find(s => s.identifier === state)!.values)
 
       // Generate the block states
       const perms = generateBlockStates(type.states, values).map((permutation) => {

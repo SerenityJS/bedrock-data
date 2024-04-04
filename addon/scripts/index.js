@@ -1,8 +1,8 @@
-import { BlockPermutation, BlockStates, BlockTypes } from "@minecraft/server"
+import { BlockPermutation, BlockStates, BlockTypes, ItemTypes } from "@minecraft/server"
 import { HttpRequest, HttpRequestMethod, http } from "@minecraft/server-net"
 
 // Map the block states
-const states = BlockStates.getAll().map((state) => {
+const blockStates = BlockStates.getAll().map((state) => {
   return {
     identifier: state.id,
     values: state.validValues,
@@ -10,7 +10,7 @@ const states = BlockStates.getAll().map((state) => {
 })
 
 // Map the block types
-const types = BlockTypes.getAll().map((type) => {
+const blockTypes = BlockTypes.getAll().map((type) => {
   // Get the default permutation for the block type
   const permutation = BlockPermutation.resolve(type.id)
 
@@ -21,7 +21,14 @@ const types = BlockTypes.getAll().map((type) => {
   }
 })
 
+// Map the item types
+const itemTypes = ItemTypes.getAll().map((type) => {
+  return {
+    identifier: type.id,
+  }
+})
+
 let request = new HttpRequest("http://localhost:8080");
 request.setMethod(HttpRequestMethod.Post);
-request.setBody(JSON.stringify({states, types}));
+request.setBody(JSON.stringify({blockStates, blockTypes, itemTypes}));
 http.request(request);
