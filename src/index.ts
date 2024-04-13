@@ -7,6 +7,7 @@ import { createServer } from "node:http"
 import { generateBlockStates } from "./generate"
 import type { BlockState } from "./generate"
 import { hash } from "./hash"
+import { downloadLatestBedrockServer } from "./download-server"
 
 const serverPath = resolve(process.cwd(), "server")
 const dumpPath = resolve(process.cwd(), "dump")
@@ -65,7 +66,9 @@ copyDirRecursive(addonPath, resolve(serverPath, "development_behavior_packs/pale
 // Check for the bedrock server executable
 if (!existsSync(resolve(serverPath, "bedrock_server.exe"))) {
   // Throw an error if the bedrock server executable is not found
-  console.log("Bedrock server executable not found, please place the latest version of the bedrock server executable in the server folder!")
+  console.log("Bedrock server executable not found. Attempting to download latest bedrock server zip...");
+
+  await downloadLatestBedrockServer(serverPath);
 }
 
 // Check for the server.properties file
