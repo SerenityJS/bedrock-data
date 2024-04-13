@@ -18,6 +18,7 @@ interface DumpRequest {
   blockStates: { identifier: string, values: (string | number | boolean)[] }[]
   blockTypes: { identifier: string, states: string[], loggable: boolean }[]
   itemTypes: { identifier: string }[]
+  entityTypes: { identifier: string, components: string[] }[]
 }
 
 // Check if server folder exists
@@ -118,6 +119,9 @@ const server = createServer((req) => {
 
     // Write the items to the dump folder
     writeFileSync(resolve(dumpPath, "item_types.json"), JSON.stringify(json.itemTypes, null, 2))
+
+    // Write the entities to the dump folder
+    writeFileSync(resolve(dumpPath, "entity_types.json"), JSON.stringify(json.entityTypes, null, 2))
 
     // Prepare the permutations array
     const permutations: { identifier: string, hash: number, state: BlockState }[] = []
