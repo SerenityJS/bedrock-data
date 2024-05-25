@@ -13,6 +13,7 @@ const serverPath = resolve(process.cwd(), "server")
 const dumpPath = resolve(process.cwd(), "dump")
 const templatePath = resolve(__dirname, "../template")
 const addonPath = resolve(__dirname, "../addon")
+const blocks = require("../meta/blocks.json") as { name: string, hardness?: number, resistance?: number, material?: string, harvestTools?: any }[]
 
 interface DumpRequest {
   blockStates: { identifier: string, values: (string | number | boolean)[] }[]
@@ -115,7 +116,26 @@ const server = createServer((req) => {
     writeFileSync(resolve(dumpPath, "block_states.json"), JSON.stringify(json.blockStates, null, 2))
 
     // Write the types to the dump folder
-    writeFileSync(resolve(dumpPath, "block_types.json"), JSON.stringify(json.blockTypes, null, 2))
+    const blockTypes = json.blockTypes.map((type) => {
+      // Get the meta data of the block
+      const meta = blocks.find((meta) => meta.name === type.identifier.split(":")[1])
+
+      const hardness = meta?.hardness ?? 0
+      const resistance = meta?.resistance ?? 0
+      const material = meta?.material ?? "default"
+
+      const requiresTool = meta?.harvestTools === undefined ? false : true
+
+      // Add the meta data to the type
+      return {
+        ...type,
+        hardness,
+        resistance,
+        material,
+        requiresTool
+      }
+    })
+    writeFileSync(resolve(dumpPath, "block_types.json"), JSON.stringify(blockTypes, null, 2))
 
     // Write the items to the dump folder
     writeFileSync(resolve(dumpPath, "item_types.json"), JSON.stringify(json.itemTypes, null, 2))

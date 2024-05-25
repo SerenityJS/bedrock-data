@@ -3,7 +3,18 @@ import { HttpRequest, HttpRequestMethod, http } from "@minecraft/server-net"
 
 // These states are invalid when it comes to the protocol side.
 // These states is left attached to the block type will cause ghost blocks.
-const blockedStates = [ "color", "top_slot_bit", "wood_type", "old_log_type", "stripped_bit", "direction", "facing_direction", "toggle_bit" ]
+const blockedStates = [
+  "color",
+  "top_slot_bit",
+  "wood_type",
+  "old_log_type",
+  "stripped_bit",
+  "direction",
+  "facing_direction",
+  "toggle_bit",
+  "stone_type",
+  "conditional_bit"
+]
 
 world.afterEvents.worldInitialize.subscribe(() => {
   // Add the ticking area

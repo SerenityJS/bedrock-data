@@ -15,6 +15,7 @@
     "identifier": "minecraft:zombie_horse",
     "components": [
       "minecraft:movement.jump",
+      "minecraft:ageable",
       "minecraft:lava_movement",
       "minecraft:breathable",
       "minecraft:health",
@@ -24,14 +25,15 @@
       "minecraft:type_family",
       "minecraft:movement.basic",
       "minecraft:is_hidden_when_invisible",
-      "minecraft:rideable",
       "minecraft:underwater_movement",
+      "minecraft:is_baby",
       "minecraft:is_tamed"
     ]
   },
   {
     "identifier": "minecraft:rabbit",
     "components": [
+      "minecraft:ageable",
       "minecraft:lava_movement",
       "minecraft:breathable",
       "minecraft:health",
@@ -43,6 +45,7 @@
       "minecraft:movement.skip",
       "minecraft:underwater_movement",
       "minecraft:can_climb",
+      "minecraft:is_baby",
       "minecraft:scale",
       "minecraft:variant"
     ]
@@ -327,8 +330,8 @@
   {
     "identifier": "minecraft:strider",
     "components": [
+      "minecraft:addrider",
       "minecraft:movement.jump",
-      "minecraft:ageable",
       "minecraft:lava_movement",
       "minecraft:health",
       "minecraft:fire_immune",
@@ -338,9 +341,8 @@
       "minecraft:type_family",
       "minecraft:movement.basic",
       "minecraft:is_hidden_when_invisible",
-      "minecraft:underwater_movement",
-      "minecraft:is_baby",
-      "minecraft:scale"
+      "minecraft:rideable",
+      "minecraft:underwater_movement"
     ]
   },
   {
@@ -363,6 +365,7 @@
     "identifier": "minecraft:turtle",
     "components": [
       "minecraft:movement.jump",
+      "minecraft:ageable",
       "minecraft:lava_movement",
       "minecraft:breathable",
       "minecraft:movement.amphibious",
@@ -371,7 +374,9 @@
       "minecraft:movement",
       "minecraft:type_family",
       "minecraft:is_hidden_when_invisible",
-      "minecraft:underwater_movement"
+      "minecraft:underwater_movement",
+      "minecraft:is_baby",
+      "minecraft:scale"
     ]
   },
   {
@@ -397,7 +402,7 @@
     "identifier": "minecraft:trader_llama",
     "components": [
       "minecraft:movement.jump",
-      "minecraft:tamemount",
+      "minecraft:ageable",
       "minecraft:healable",
       "minecraft:lava_movement",
       "minecraft:breathable",
@@ -409,9 +414,10 @@
       "minecraft:type_family",
       "minecraft:movement.basic",
       "minecraft:is_hidden_when_invisible",
-      "minecraft:rideable",
       "minecraft:underwater_movement",
+      "minecraft:is_baby",
       "minecraft:mark_variant",
+      "minecraft:scale",
       "minecraft:variant"
     ]
   },
@@ -916,7 +922,6 @@
     "identifier": "minecraft:goat",
     "components": [
       "minecraft:movement.jump",
-      "minecraft:ageable",
       "minecraft:lava_movement",
       "minecraft:breathable",
       "minecraft:health",
@@ -927,9 +932,7 @@
       "minecraft:movement.basic",
       "minecraft:is_hidden_when_invisible",
       "minecraft:underwater_movement",
-      "minecraft:can_climb",
-      "minecraft:is_baby",
-      "minecraft:scale"
+      "minecraft:can_climb"
     ]
   },
   {
