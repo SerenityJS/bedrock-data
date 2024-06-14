@@ -5,15 +5,52 @@ import { HttpRequest, HttpRequestMethod, http } from "@minecraft/server-net"
 // These states is left attached to the block type will cause ghost blocks.
 const blockedStates = [
   "color",
-  "top_slot_bit",
+  "stone_type",
   "wood_type",
   "old_log_type",
-  "stripped_bit",
-  "direction",
-  "facing_direction",
-  "toggle_bit",
-  "stone_type",
-  "conditional_bit"
+]
+
+const blockedStatesPerBlock = [
+  {
+    identifier: "minecraft:chest",
+    states: [ "facing_direction" ]
+  },
+  {
+    identifier: "minecraft:furnace",
+    states: [ "facing_direction" ]
+  },
+  {
+    identifier: "minecraft:lit_furnace",
+    states: [ "facing_direction" ]
+  },
+  {
+    identifier: "minecraft:smoker",
+    states: [ "facing_direction" ]
+  },
+  {
+    identifier: "minecraft:lit_smoker",
+    states: [ "facing_direction" ]
+  },
+  {
+    identifier: "minecraft:blast_furnace",
+    states: [ "facing_direction" ]
+  },
+  {
+    identifier: "minecraft:lit_blast_furnace",
+    states: [ "facing_direction" ]
+  },
+  {
+    identifier: "anvil",
+    states: [ "direction" ]
+  },
+  {
+    identifier: "minecraft:observer",
+    states: [ "facing_direction" ]
+  },
+  {
+    identifier: "minecraft:calibrated_sculk_sensor",
+    states: [ "direction" ]
+  }
 ]
 
 world.afterEvents.worldInitialize.subscribe(() => {
@@ -35,8 +72,18 @@ world.afterEvents.worldInitialize.subscribe(() => {
       const permutation = BlockPermutation.resolve(type.id)
     
       // Oraganize the block type by alpabetical order, and remove the blocked states
-      const states = Object.keys(permutation.getAllStates()).sort().filter((state) => {
+      let states = Object.keys(permutation.getAllStates()).sort().filter((state) => {
         return !blockedStates.includes(state)
+      })
+
+      // Filter out the blocked states blocked for the specific block type
+      states = states.filter((state) => {
+        const blockedState = blockedStatesPerBlock.find((x) => x.identifier === type.id)
+        if (blockedState) {
+          return !blockedState.states.includes(state)
+        }
+
+        return true
       })
     
       // Prepare the block type components
