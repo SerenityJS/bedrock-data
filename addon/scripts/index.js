@@ -8,6 +8,7 @@ const blockedStates = [
   "stone_type",
   "wood_type",
   "old_log_type",
+  "old_leaf_type",
 ]
 
 const blockedStatesPerBlock = [
