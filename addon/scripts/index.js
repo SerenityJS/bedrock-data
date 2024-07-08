@@ -1,4 +1,4 @@
-import { BlockPermutation, BlockStates, BlockTypes, ItemTypes, EntityTypes, world, system, BlockComponentTypes } from "@minecraft/server"
+import { BlockPermutation, BlockStates, BlockTypes, ItemTypes, EntityTypes, world, system, BlockComponentTypes, ItemStack } from "@minecraft/server"
 import { HttpRequest, HttpRequestMethod, http } from "@minecraft/server-net"
 
 // These states are invalid when it comes to the protocol side.
@@ -75,6 +75,7 @@ world.afterEvents.worldInitialize.subscribe(() => {
       let air = false
       let liquid = false
       let solid = false
+      let tags = []
 
       // Oraganize the block type by alpabetical order, and remove the blocked states
       let states = Object.keys(permutation.getAllStates()).sort().filter((state) => {
@@ -101,6 +102,7 @@ world.afterEvents.worldInitialize.subscribe(() => {
         air = block.isAir
         liquid = block.isLiquid
         solid = block.isSolid
+        tags = block.getTags()
 
         for (const component of Object.values(BlockComponentTypes)) {
           try {
@@ -115,6 +117,7 @@ world.afterEvents.worldInitialize.subscribe(() => {
         identifier: type.id,
         components,
         states,
+        tags,
         loggable: type.canBeWaterlogged,
         air,
         liquid,
@@ -124,8 +127,18 @@ world.afterEvents.worldInitialize.subscribe(() => {
     
     // Map the item types
     const itemTypes = ItemTypes.getAll().map((type) => {
+      // Create a stack of the item type
+      const stack = new ItemStack(type, 1)
+
+      // Get the components of the item type
+      // const components = stack.getComponents().map((x) => x.typeId)
+
       return {
         identifier: type.id,
+        // components, ?? broken atm?
+        // tags: stack.getTags(), ?? broken atm?
+        stackable: stack.isStackable,
+        maxAmount: stack.maxAmount,
       }
     })
     
