@@ -251,7 +251,7 @@
     "identifier": "minecraft:trader_llama",
     "components": [
       "minecraft:movement.jump",
-      "minecraft:tamemount",
+      "minecraft:ageable",
       "minecraft:healable",
       "minecraft:lava_movement",
       "minecraft:breathable",
@@ -263,9 +263,10 @@
       "minecraft:type_family",
       "minecraft:movement.basic",
       "minecraft:is_hidden_when_invisible",
-      "minecraft:rideable",
       "minecraft:underwater_movement",
+      "minecraft:is_baby",
       "minecraft:mark_variant",
+      "minecraft:scale",
       "minecraft:variant"
     ]
   },
@@ -661,8 +662,7 @@
       "minecraft:movement.basic",
       "minecraft:is_hidden_when_invisible",
       "minecraft:underwater_movement",
-      "minecraft:is_baby",
-      "minecraft:scale"
+      "minecraft:variant"
     ]
   },
   {
@@ -873,7 +873,7 @@
     "identifier": "minecraft:llama",
     "components": [
       "minecraft:movement.jump",
-      "minecraft:ageable",
+      "minecraft:tamemount",
       "minecraft:healable",
       "minecraft:lava_movement",
       "minecraft:breathable",
@@ -885,10 +885,9 @@
       "minecraft:type_family",
       "minecraft:movement.basic",
       "minecraft:is_hidden_when_invisible",
+      "minecraft:rideable",
       "minecraft:underwater_movement",
-      "minecraft:is_baby",
       "minecraft:mark_variant",
-      "minecraft:scale",
       "minecraft:variant"
     ]
   },
@@ -967,6 +966,7 @@
     "identifier": "minecraft:fox",
     "components": [
       "minecraft:movement.jump",
+      "minecraft:ageable",
       "minecraft:lava_movement",
       "minecraft:breathable",
       "minecraft:health",
@@ -978,6 +978,8 @@
       "minecraft:is_hidden_when_invisible",
       "minecraft:underwater_movement",
       "minecraft:can_climb",
+      "minecraft:is_baby",
+      "minecraft:scale",
       "minecraft:variant"
     ]
   },
@@ -1020,6 +1022,7 @@
     "identifier": "minecraft:dolphin",
     "components": [
       "minecraft:movement.jump",
+      "minecraft:ageable",
       "minecraft:lava_movement",
       "minecraft:breathable",
       "minecraft:health",
@@ -1029,7 +1032,9 @@
       "minecraft:type_family",
       "minecraft:is_hidden_when_invisible",
       "minecraft:underwater_movement",
-      "minecraft:can_climb"
+      "minecraft:can_climb",
+      "minecraft:is_baby",
+      "minecraft:scale"
     ]
   },
   {

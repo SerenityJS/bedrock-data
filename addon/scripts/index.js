@@ -72,6 +72,10 @@ world.afterEvents.worldInitialize.subscribe(() => {
       // Get the default permutation for the block type
       const permutation = BlockPermutation.resolve(type.id)
     
+      let air = false
+      let liquid = false
+      let solid = false
+
       // Oraganize the block type by alpabetical order, and remove the blocked states
       let states = Object.keys(permutation.getAllStates()).sort().filter((state) => {
         return !blockedStates.includes(state)
@@ -94,6 +98,10 @@ world.afterEvents.worldInitialize.subscribe(() => {
         const block = world.getDimension("overworld").getBlock({ x: 0, y: -60, z: 0 })
         block.setType(type)
 
+        air = block.isAir
+        liquid = block.isLiquid
+        solid = block.isSolid
+
         for (const component of Object.values(BlockComponentTypes)) {
           try {
             if (block.getComponent(component)) {
@@ -105,9 +113,12 @@ world.afterEvents.worldInitialize.subscribe(() => {
 
       return {
         identifier: type.id,
-        loggable: type.canBeWaterlogged,
         components,
         states,
+        loggable: type.canBeWaterlogged,
+        air,
+        liquid,
+        solid,
       }
     })
     
