@@ -9,6 +9,9 @@ const blockedStates = [
   "wood_type",
   "old_log_type",
   "old_leaf_type",
+  "dirt_type",
+  "stripped_bit",
+  "stone_brick_type",
 ]
 
 const blockedStatesPerBlock = [
@@ -51,6 +54,14 @@ const blockedStatesPerBlock = [
   {
     identifier: "minecraft:calibrated_sculk_sensor",
     states: [ "direction" ]
+  },
+  {
+    identifier: "minecraft:dirt",
+    states: []
+  },
+  {
+    identifier: "minecraft:coarse_dirt",
+    states: []
   }
 ]
 
@@ -135,8 +146,8 @@ world.afterEvents.worldInitialize.subscribe(() => {
 
       return {
         identifier: type.id,
-        // components, ?? broken atm?
-        // tags: stack.getTags(), ?? broken atm?
+        // components,
+        tags: stack.getTags(),
         stackable: stack.isStackable,
         maxAmount: stack.maxAmount,
       }
