@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, writeFileSync, readFileSync } from "node:fs"
+import { existsSync, mkdirSync, writeFileSync, readFileSync, rmSync } from "node:fs"
 import { resolve } from "node:path"
 
 import { copyDirRecursive } from './copy'
@@ -13,6 +13,11 @@ const serverPath = resolve(process.cwd(), "server")
 const dumpPath = resolve(process.cwd(), "dump")
 const templatePath = resolve(__dirname, "../template")
 const addonPath = resolve(__dirname, "../addon")
+
+interface MojangBlocks {
+  block_properties: Array<{ name: string, type: string, values: Array<{ value: (string | number | boolean) }> }>,
+  data_items: Array<{ name: string, properties: Array<{ name: string }> }>
+}
 
 interface DumpRequest {
   blockStates: { identifier: string, values: (string | number | boolean)[] }[]
@@ -63,6 +68,8 @@ if (!existsSync(resolve(serverPath, "development_behavior_packs/palette-dumper")
 // Copy the contents of the addon folder to the development behavior pack folder
 copyDirRecursive(addonPath, resolve(serverPath, "development_behavior_packs/palette-dumper"))
 
+writeFileSync(resolve(serverPath, "test_config.json"), JSON.stringify({ "generate_documention": true }))
+
 // Check for the bedrock server executable
 if (!existsSync(resolve(serverPath, "bedrock_server.exe"))) {
   // Throw an error if the bedrock server executable is not found
@@ -91,8 +98,54 @@ if (!json.allowed_modules.includes("@minecraft/server-net")) json.allowed_module
 writeFileSync(resolve(serverPath, "config/default/permissions.json"), JSON.stringify(json, null, 2))
 
 // Start the bedrock server executable
-console.log("Starting the bedrock server executable...")
+console.log("Dumping the block palette...")
 const bedrock = exec(resolve(serverPath, "bedrock_server.exe"))
+
+let blockStates = [] as { identifier: string, type: string, values: (string | number | boolean)[] }[]
+let blockTypes = [] as { identifier: string, states: string[] }[]
+let blockPermutations = [] as { identifier: string, hash: number, state: BlockState }[]
+
+// Wait for the bedrock server executable to exit
+bedrock.on("exit", () => {
+  // Remove the test_config.json file
+  rmSync(resolve(serverPath, "test_config.json"));
+
+  // Read the generated block palette
+  const paletteRaw = readFileSync(resolve(serverPath, "docs/vanilladata_modules/mojang-blocks.json"), "utf8")
+  const palette = JSON.parse(paletteRaw) as MojangBlocks
+
+  // Format the block states
+  blockStates = palette.block_properties.map((property) => {
+    return {
+      identifier: property.name,
+      type: property.type,
+      values: property.values.map((entry) => entry.value)
+    }
+  })
+
+  // Format the block types
+  blockTypes = palette.data_items.map((type) => {
+    return {
+      identifier: type.name,
+      states: type.properties.map((property) => property.name),
+    }
+  })
+
+  // Format the block permutations
+  blockPermutations = blockTypes.map((type) => {
+    // Map the values of each state
+    const values = type.states.map((state) => blockStates.find(s => s.identifier === state)!.values)
+
+    // Generate the block permutations with the stateful values
+    return generateBlockStates(type.states, values).map((permutation) => {
+      return {
+        identifier: type.identifier,
+        hash: hash(type.identifier, permutation),
+        state: permutation
+      }
+    })
+  }).flatMap((permutations) => permutations)
+})
 
 // Start the http server
 console.log("Starting the http server...")
@@ -111,46 +164,38 @@ const server = createServer((req) => {
     // Parse the incoming data
     const json = JSON.parse(chunk.toString()) as DumpRequest
 
-    // Write the states to the dump folder
-    writeFileSync(resolve(dumpPath, "block_states.json"), JSON.stringify(json.blockStates, null, 2))
+    setTimeout(() => {
+      // Merge the existing block types with the incoming block types
+      blockTypes = blockTypes.map((type) => {
+        const incoming = json.blockTypes.find((incoming) => incoming.identifier === type.identifier)
 
-    // Write the types to the dump folder
-    const blockTypes = json.blockTypes
-
-    // Write the types to the dump folder
-    writeFileSync(resolve(dumpPath, "block_types.json"), JSON.stringify(blockTypes, null, 2))
-
-    // Write the items to the dump folder
-    writeFileSync(resolve(dumpPath, "item_types.json"), JSON.stringify(json.itemTypes, null, 2))
-
-    // Write the entities to the dump folder
-    writeFileSync(resolve(dumpPath, "entity_types.json"), JSON.stringify(json.entityTypes, null, 2))
-
-    // Prepare the permutations array
-    const permutations: { identifier: string, hash: number, state: BlockState }[] = []
-
-    // Iterate through each type
-    for (const type of json.blockTypes) {
-      // Get the values of each state
-      const values = type.states.map(state => json.blockStates.find(s => s.identifier === state)!.values)
-
-      // Generate the block states
-      const perms = generateBlockStates(type.states, values).map((permutation) => {
-        return {
-          identifier: type.identifier,
-          hash: hash(type.identifier, permutation),
-          state: permutation
+        if (incoming) {
+          return {
+            ...incoming,
+            ...type,
+          }
         }
+
+        return type
       })
-
-      // Push the permutations to the array
-      permutations.push(...perms)
-    }
-
-    // Write the permutations to the dump folder
-    writeFileSync(resolve(dumpPath, "block_permutations.json"), JSON.stringify(permutations, null, 2))
-
-    console.log("Dumped the states, types, and permutations to the dump folder!")
+      
+      // Write the states to the dump folder
+      writeFileSync(resolve(dumpPath, "block_states.json"), JSON.stringify(blockStates, null, 2))
+      
+      // Write the types to the dump folder
+      writeFileSync(resolve(dumpPath, "block_types.json"), JSON.stringify(blockTypes, null, 2))
+      
+      // Write the items to the dump folder
+      writeFileSync(resolve(dumpPath, "item_types.json"), JSON.stringify(json.itemTypes, null, 2))
+      
+      // Write the entities to the dump folder
+      writeFileSync(resolve(dumpPath, "entity_types.json"), JSON.stringify(json.entityTypes, null, 2))
+      
+      // Write the permutations to the dump folder
+      writeFileSync(resolve(dumpPath, "block_permutations.json"), JSON.stringify(blockPermutations, null, 2))
+      
+      console.log("Dumped the states, types, and permutations to the dump folder!")
+    }, 3000)
 
     // Close the bedrock server executable
     bedrock.kill()

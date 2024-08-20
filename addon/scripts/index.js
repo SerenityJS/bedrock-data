@@ -127,7 +127,6 @@ world.afterEvents.worldInitialize.subscribe(() => {
       return {
         identifier: type.id,
         components,
-        states,
         tags,
         loggable: type.canBeWaterlogged,
         air,
