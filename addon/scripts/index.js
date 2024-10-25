@@ -88,7 +88,7 @@ world.afterEvents.worldInitialize.subscribe(() => {
       let solid = false
       let tags = []
 
-      // Oraganize the block type by alpabetical order, and remove the blocked states
+      // Organize the block type by alphabetical order, and remove the blocked states
       let states = Object.keys(permutation.getAllStates()).sort().filter((state) => {
         return !blockedStates.includes(state)
       })

@@ -68,7 +68,7 @@ if (!existsSync(resolve(serverPath, "development_behavior_packs/palette-dumper")
 // Copy the contents of the addon folder to the development behavior pack folder
 copyDirRecursive(addonPath, resolve(serverPath, "development_behavior_packs/palette-dumper"))
 
-writeFileSync(resolve(serverPath, "test_config.json"), JSON.stringify({ "generate_documention": true }))
+writeFileSync(resolve(serverPath, "test_config.json"), JSON.stringify({ "generate_documentation": true }))
 
 // Check for the bedrock server executable
 if (!existsSync(resolve(serverPath, "bedrock_server.exe"))) {
@@ -99,7 +99,7 @@ writeFileSync(resolve(serverPath, "config/default/permissions.json"), JSON.strin
 
 // Start the bedrock server executable
 console.log("Dumping the block palette...")
-const bedrock = exec(resolve(serverPath, "bedrock_server.exe"))
+let bedrock = exec(resolve(serverPath, "bedrock_server.exe"))
 
 let blockStates = [] as { identifier: string, type: string, values: (string | number | boolean)[] }[]
 let blockTypes = [] as { identifier: string, states: string[] }[]
@@ -145,6 +145,9 @@ bedrock.on("exit", () => {
       }
     })
   }).flatMap((permutations) => permutations)
+
+  // Restart the bedrock server executable
+  bedrock = exec(resolve(serverPath, "bedrock_server.exe"))
 })
 
 // Start the http server
