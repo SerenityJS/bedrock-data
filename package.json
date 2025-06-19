@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@minecraft/common": "^1.2.0",
-    "@minecraft/server": "1.14.0-beta.1.21.20-stable",
+    "@minecraft/server": "^2.1.0-beta.1.21.90-preview.23",
     "@minecraft/server-net": "^1.0.0-beta.11940b24",
     "@types/bun": "latest",
     "@types/node": "^20.11.30",

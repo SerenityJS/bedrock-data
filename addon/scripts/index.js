@@ -65,7 +65,7 @@ const blockedStatesPerBlock = [
   }
 ]
 
-world.afterEvents.worldInitialize.subscribe(() => {
+world.afterEvents.worldLoad.subscribe(() => {
   // Add the ticking area
   world.getDimension("overworld").runCommand("tickingarea add circle 0 -60 0 4 dump")
 
@@ -141,11 +141,10 @@ world.afterEvents.worldInitialize.subscribe(() => {
       const stack = new ItemStack(type, 1)
 
       // Get the components of the item type
-      // const components = stack.getComponents().map((x) => x.typeId)
+      const components = stack.getComponents().map((x) => x.typeId)
 
       return {
         identifier: type.id,
-        // components,
         tags: stack.getTags(),
         stackable: stack.isStackable,
         maxAmount: stack.maxAmount,

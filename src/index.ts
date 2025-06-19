@@ -97,9 +97,10 @@ const json = JSON.parse(config) as { allowed_modules: string[] }
 if (!json.allowed_modules.includes("@minecraft/server-net")) json.allowed_modules.push("@minecraft/server-net")
 writeFileSync(resolve(serverPath, "config/default/permissions.json"), JSON.stringify(json, null, 2))
 
-// Start the bedrock server executable
+// Start the bedrock server executable, pipe the stdout to the main process
 console.log("Dumping the block palette...")
 let bedrock = exec(resolve(serverPath, "bedrock_server.exe"))
+bedrock.stdout?.on("data", (data) => process.stdout.write(data))
 
 let blockStates = [] as { identifier: string, type: string, values: (string | number | boolean)[] }[]
 let blockTypes = [] as { identifier: string, states: string[] }[]
